@@ -3,7 +3,7 @@ import axios from "axios";
 export default class Todos {
   constructor() {
     this.api = axios.create({
-      baseURL: "https://local3.rude-panda-26.telebit.xyz/api"
+      baseURL: "https://vue-todo-with-be-devan.herokuapp.com/api"
     });
   }
 
